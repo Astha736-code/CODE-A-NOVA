@@ -1,1 +1,12 @@
-in this file we launch a number guessing game in this project we use python programming language this is a part of my internship 
+import random
+target = random.randint(1,100)
+while True:
+    userchoice = int(input("guess the number : "))
+    if(userchoice == target):
+        print("success : correct guess!!")
+        break
+    elif(userchoice < target):
+        print("your number was too small.take a bigger guess...")
+    else:
+        print("your number was too big, take a smallerr guess")    
+print("----game over---")
