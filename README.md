@@ -1,4 +1,4 @@
- CODE-A-NOVA
+ CODE soft
 
 Data Science Internship Repository
 
